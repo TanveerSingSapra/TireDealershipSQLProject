@@ -31,7 +31,7 @@ The data obtained consisted of 5 entities:
 
 Based upon these entities and the attributes within them, an entity relationship diagram was designed to clearly understand the relationship between the entities.
 
-![Alt text](ER.png)
+![Alt text](images/ER.png)
 
 
 
@@ -40,7 +40,7 @@ Based upon these entities and the attributes within them, an entity relationship
 
 To model the database as suitable for MySQL, a relational schema is developed so that each entity can be uploaded with the appropriate primary and foreign keys required for querying.
 
-![Alt text](Schema.png)
+![Alt text](images/Schema.png)
 
 
 
@@ -51,7 +51,7 @@ To eliminate redundancy and enhance data integrity, normalization is performed. 
 
 
 
-![Alt text](Normalization.png)
+![Alt text](images/Normalization.png)
 
 
 
