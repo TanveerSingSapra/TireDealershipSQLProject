@@ -25,6 +25,8 @@ The data obtained consisted of 5 entities:
 
 Based upon these entities and the attributes within them, an entity relationship diagram was designed to clearly understand the relationship between the entities.
 
+![Alt text](ER.png)
+
 
 **Relational Schema**
 
