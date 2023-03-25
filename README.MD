@@ -1,19 +1,25 @@
 <h1>SQL Project to Create and Optimize the Database of a Tire Dealership </h1>
 
 
-**Introduction**
+<h2>**Introduction**</h2>
 
 The subject of this project is to improve the existing database of a client by normalizing the data, designing an entity relationship diagram & developing a relational schema for a clear understanding of the database and performing analysis to obtain tangible business insights.
 
-**Client**
+
+
+
+<h2>**Client**</h2>
 
 The client is a Bridgestone franchise outlet that primarily sells tyres, along with parts like alloy wheels and wheel balancing weights. Additionally, the outlet operates a servicing and alignment workshop. The outlet is located in Palakkad, India which is a town in the southern Indian state of Kerala. The business sells around 400-500 tyres on a monthly basis and maintains a loyal customer base with interests in premium products and the Bridgestone brand.
 
-**Problem Statement**
+
+
+
+<h2>**Problem Statement**</h2>
 
 The business has recently moved towards maintaining a larger database of their business activities, using data not only for standard business procedures like recording sales and inventory, but also in understanding employee performance and customer sentiment through google reviews. The challenge though is in increasing employee adoption and identifying low-hanging fruits in terms of analysis that can create impact in the business.
 
-**Entity Relationship Diagram**
+<h2>**Entity Relationship Diagram**</h2>
 
 The data obtained consisted of 5 entities:
 
@@ -28,20 +34,28 @@ Based upon these entities and the attributes within them, an entity relationship
 ![Alt text](ER.png)
 
 
-**Relational Schema**
+
+
+<h2>**Relational Schema**</h2>
 
 To model the database as suitable for MySQL, a relational schema is developed so that each entity can be uploaded with the appropriate primary and foreign keys required for querying.
 
 ![Alt text](Schema.png)
 
-**Normalization**
+
+
+
+<h2>**Normalization**</h2>
 
 To eliminate redundancy and enhance data integrity, normalization is performed. With regards to the data obtained, 4 of the 5 tables – Employees, Vehicles, Reviews and Inventory were already normalized to the 3N form. The Transactions table existed in the 2N form with some transitive relationships. For example, the name and the phone number available in each record is determined by the vehicle number present in the record. To achieve the 3N form, the dependent columns are dropped to eliminate any transitive columns.
 
 ![Alt text](Normalization.png)
 
 
-**Commentary on Data Model**
+
+
+
+<h2>**Commentary on Data Model**</h2>
 
 The 5 entities obtained consisted of 1 fact table – Transactions, and 4 dimension tables – Vehicles, Employees, Inventory and Reviews. The relationships that exist were all one to many relationships, primarily with the many side towards the Transactions table and the one side towards the dimension table being considered.
 
