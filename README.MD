@@ -1,4 +1,4 @@
-﻿**MGMT 582 – Management of Organizational Data
+﻿**SQL Project to Create and Optimize the Database of a Tire Dealership
 Final Project Report**
 
 **Introduction**
