@@ -1,5 +1,5 @@
 <h1>SQL Project to Create and Optimize the Database of a Tire Dealership </h1>
-Final Project Report**
+
 
 **Introduction**
 
