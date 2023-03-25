@@ -32,9 +32,13 @@ Based upon these entities and the attributes within them, an entity relationship
 
 To model the database as suitable for MySQL, a relational schema is developed so that each entity can be uploaded with the appropriate primary and foreign keys required for querying.
 
+![Alt text](Schema.png)
+
 **Normalization**
 
 To eliminate redundancy and enhance data integrity, normalization is performed. With regards to the data obtained, 4 of the 5 tables – Employees, Vehicles, Reviews and Inventory were already normalized to the 3N form. The Transactions table existed in the 2N form with some transitive relationships. For example, the name and the phone number available in each record is determined by the vehicle number present in the record. To achieve the 3N form, the dependent columns are dropped to eliminate any transitive columns.
+
+![Alt text](Normalization.png)
 
 
 **Commentary on Data Model**
